@@ -8,6 +8,10 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 | 2025-02-21 10:50 AM | Arrays | Array Input/Output | [inputArray.cpp](inputArray.cpp) | Basic implementation of array input/output operations in C++ |
 | 2025-02-21 11:05 AM | Arrays | Subarray Sum | [subarraySum.cpp](subarraySum.cpp) | Calculate sum of all possible subarrays in an array |
 | 2025-02-21 11:15 AM | Loops | Types of Loops | [typesOfLoops.cpp](typesOfLoops.cpp) | Different types of loops in C++ |
+| 2025-02-21 11:25 AM | Loops | Sliding Window | [slidingWindow.cpp](slidingWindow.cpp) | Implement sliding window technique using for loop |
+
+## LeetCode Problems Solved
+1. "3" Longest Substring Without Repeating Characters - [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](lengthOfLongestSubstring.cpp)
 
 
 ## Repository Structure
@@ -107,21 +111,83 @@ g++ filename.cpp -o filename
    }
    ```
 
-### Interview Tips
-1. **Array Problems**
-   - Always clarify input constraints
-   - Consider edge cases (empty array, single element)
-   - Look for sorting requirement
-   - Check for overflow in sum calculations
+### 3. Sliding Window Technique
+#### Key Concepts
+- **Basic Principles**
+  - Fixed/Variable size window
+  - Linear traversal
+  - Optimal for substring/subarray problems
+  - Time Complexity: O(n)
 
-2. **Loop Optimization**
-   - Avoid nested loops when possible
-   - Consider break conditions
-   - Use appropriate loop type based on use case
-   - Remember loop invariants
+#### Implementation Patterns
+1. **Fixed Size Window**
+   ```cpp
+   // Calculate initial window
+   for(int i = 0; i < k; i++) {
+       windowSum += arr[i];
+   }
+   
+   // Slide window
+   for(int i = k; i < n; i++) {
+       windowSum = windowSum + arr[i] - arr[i-k];
+       result = max(result, windowSum);
+   }
+   ```
+
+2. **Variable Size Window**
+   ```cpp
+   while(j < n) {
+       // Add calculation for j
+       
+       while(condition) {
+           // Remove calculation for i
+           i++;
+       }
+       
+       // Store result
+       j++;
+   }
+   ```
+
+### 4. String Problems
+#### Important Techniques
+- **Character Frequency**
+  ```cpp
+  int freq[128] = {0};  // for ASCII
+  // or
+  vector<int> freq(26, 0);  // for lowercase letters
+  ```
+
+- **Sliding Window on Strings**
+  - Track unique characters
+  - Maintain character count
+  - Update window based on conditions
+
+#### Common String Operations
+1. **Character Counting**
+   ```cpp
+   string s = "example";
+   vector<int> count(26, 0);
+   for(char c : s) {
+       count[c - 'a']++;
+   }
+   ```
+
+### Interview Tips
+3. **String Problems**
+   - Use frequency arrays for character counting
+   - Consider ASCII vs Unicode requirements
+   - Check for case sensitivity
+   - Handle empty string cases
+
+4. **Sliding Window Problems**
+   - Identify window condition
+   - Handle window size variations
+   - Track window state efficiently
+   - Consider space optimization
 
 ### Common Time Complexities
-- Linear Search: O(n)
-- Binary Search: O(log n)
-- Nested Loops: O(n²)
+- String Operations: O(n)
 - Sliding Window: O(n)
+- Character Frequency: O(n)
+- String Comparison: O(min(n,m))
