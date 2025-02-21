@@ -36,3 +36,92 @@ For C++ programs:
 g++ filename.cpp -o filename
 ./filename
 ```
+
+## Interview Preparation Notes
+
+### 1. Arrays
+#### Key Concepts
+- **Array Basics**
+  - Contiguous memory allocation
+  - Zero-based indexing in C++
+  - Fixed size declaration: `int arr[size]`
+  - Time Complexity: Access O(1), Search O(n)
+
+#### Important Operations
+1. **Array Input/Output**
+   ```cpp
+   // Input
+   for(int i = 0; i < n; i++) {
+       cin >> arr[i];
+   }
+   // Output
+   for(int i = 0; i < n; i++) {
+       cout << arr[i] << " ";
+   }
+   ```
+
+2. **Subarray Operations**
+   - Subarray: Contiguous part of array
+   - Properties:
+     - For array of size n: Total subarrays = n*(n+1)/2
+     - Start index ≤ End index
+   - Common Problems:
+     - Subarray with given sum
+     - Maximum subarray sum (Kadane's Algorithm)
+     - Fixed size sliding window
+
+### 2. Loops
+#### Types and Usage
+1. **For Loop**
+   - Best for known number of iterations
+   - Counter-controlled iteration
+   ```cpp
+   for(initialization; condition; update) {
+       // code block
+   }
+   ```
+
+2. **While Loop**
+   - Condition-controlled iteration
+   - Used when number of iterations unknown
+   ```cpp
+   while(condition) {
+       // code block
+       // update condition
+   }
+   ```
+
+#### Common Loop Patterns
+1. **Sliding Window**
+   ```cpp
+   for(int i = 0; i < n-k+1; i++) {
+       // Process window of size k
+   }
+   ```
+
+2. **Two-Pointer Technique**
+   ```cpp
+   int i = 0, j = n-1;
+   while(i < j) {
+       // Process elements from both ends
+   }
+   ```
+
+### Interview Tips
+1. **Array Problems**
+   - Always clarify input constraints
+   - Consider edge cases (empty array, single element)
+   - Look for sorting requirement
+   - Check for overflow in sum calculations
+
+2. **Loop Optimization**
+   - Avoid nested loops when possible
+   - Consider break conditions
+   - Use appropriate loop type based on use case
+   - Remember loop invariants
+
+### Common Time Complexities
+- Linear Search: O(n)
+- Binary Search: O(log n)
+- Nested Loops: O(n²)
+- Sliding Window: O(n)
