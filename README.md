@@ -9,9 +9,11 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 | 2025-02-21 11:05 AM | Arrays | Subarray Sum | [subarraySum.cpp](subarraySum.cpp) | Calculate sum of all possible subarrays in an array |
 | 2025-02-21 11:15 AM | Loops | Types of Loops | [typesOfLoops.cpp](typesOfLoops.cpp) | Different types of loops in C++ |
 | 2025-02-21 11:25 AM | Loops | Sliding Window | [slidingWindow.cpp](slidingWindow.cpp) | Implement sliding window technique using for loop |
+| 2025-02-24 09:30 AM | Two Pointers | Two Pointer Technique | [twoPointers.cpp](twoPointers.cpp) | Implement two pointer technique using while loop |
 
 ## LeetCode Problems Solved
 1. "3" Longest Substring Without Repeating Characters - [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](lengthOfLongestSubstring.cpp)
+2. "11" Container with Most Water - [Problem](https://leetcode.com/problems/container-with-most-water/) | [Solution](maxArea.cpp)
 
 
 ## Repository Structure
