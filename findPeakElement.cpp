@@ -16,6 +16,12 @@ int findPeakElement(vector<int>& nums) {
     }
     return left;
 }
+// Why Time Limit Exceeded?
+// The above solution is not optimized because we are not using the property of the peak element.
+// We are just checking if the mid element is less than the mid + 1 element, then we are updating the left pointer.
+// But, we are not using the property of the peak element that the peak element is greater than its neighbours.
+// So, we need to update the left and right pointers accordingly to use the property of the peak element.
+// Time Complexity: O(n)
 
 // Optimized Solution
 // Approach of this solution is to find the peak element in the array using binary search.
