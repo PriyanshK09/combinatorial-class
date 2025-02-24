@@ -14,6 +14,7 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 ## LeetCode Problems Solved
 1. "3" Longest Substring Without Repeating Characters - [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](lengthOfLongestSubstring.cpp)
 2. "11" Container with Most Water - [Problem](https://leetcode.com/problems/container-with-most-water/) | [Solution](maxArea.cpp)
+3. "162" Find Peak Element - [Problem](https://leetcode.com/problems/find-peak-element/) | [Solution](findPeakElement.cpp)
 
 
 ## Repository Structure
