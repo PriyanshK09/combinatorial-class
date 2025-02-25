@@ -17,6 +17,7 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 3. "162" Find Peak Element - [Problem](https://leetcode.com/problems/find-peak-element/) | [Solution](findPeakElement.cpp)
 4. "303" Range Sum Query - Immutable - [Problem](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](NumArray.cpp)
 5. "1524" Number of Sub-arrays With Odd Sum - [Problem](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [Solution](numOfSubarrays.cpp)
+6. "707" Design Linked List - [Problem](https://leetcode.com/problems/design-linked-list/) | [Solution](MyLinkedList.cpp)
 
 
 ## Repository Structure
@@ -47,6 +48,8 @@ For C++ programs:
 g++ filename.cpp -o filename
 ./filename
 ```
+## Class Notes
+- [Class Notes](classNotes.md)
 
 ## Interview Preparation Notes
 ### Key C++ Concepts Discussed
