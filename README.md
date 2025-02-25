@@ -16,6 +16,7 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 2. "11" Container with Most Water - [Problem](https://leetcode.com/problems/container-with-most-water/) | [Solution](maxArea.cpp)
 3. "162" Find Peak Element - [Problem](https://leetcode.com/problems/find-peak-element/) | [Solution](findPeakElement.cpp)
 4. "303" Range Sum Query - Immutable - [Problem](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](NumArray.cpp)
+5. "1524" Number of Sub-arrays With Odd Sum - [Problem](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [Solution](numOfSubarrays.cpp)
 
 
 ## Repository Structure
