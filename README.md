@@ -37,6 +37,8 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 ## Topics Covered
 - Arrays and Array Operations
 - Loops in C++
+- Two Pointer Technique
+- Subarray Problems
 - *More topics will be added as the course progresses*
 
 ## Compilation Instructions
@@ -47,152 +49,44 @@ g++ filename.cpp -o filename
 ```
 
 ## Interview Preparation Notes
+### Key C++ Concepts Discussed
+1. **Array Fundamentals**
+  - Declaration and initialization
+  - Static vs Dynamic arrays
+  - Vector containers
 
-### 1. Arrays
-#### Key Concepts
-- **Array Basics**
-  - Contiguous memory allocation
-  - Zero-based indexing in C++
-  - Fixed size declaration: `int arr[size]`
-  - Time Complexity: Access O(1), Search O(n)
+2. **Loop Variations**
+  - For loop mechanics
+  - While vs Do-while
+  - Range-based loops
+  - Iterator usage
 
-#### Important Operations
-1. **Array Input/Output**
-   ```cpp
-   // Input
-   for(int i = 0; i < n; i++) {
-       cin >> arr[i];
-   }
-   // Output
-   for(int i = 0; i < n; i++) {
-       cout << arr[i] << " ";
-   }
-   ```
+3. **Two Pointer Strategy**
+  - When to use
+  - Common patterns
+  - Implementation tips
 
-2. **Subarray Operations**
-   - Subarray: Contiguous part of array
-   - Properties:
-     - For array of size n: Total subarrays = n*(n+1)/2
-     - Start index ≤ End index
-   - Common Problems:
-     - Subarray with given sum
-     - Maximum subarray sum (Kadane's Algorithm)
-     - Fixed size sliding window
+4. **Memory Management**
+  - Stack vs Heap
+  - Smart pointers
+  - Reference variables
 
-### 2. Loops
-#### Types and Usage
-1. **For Loop**
-   - Best for known number of iterations
-   - Counter-controlled iteration
-   ```cpp
-   for(initialization; condition; update) {
-       // code block
-   }
-   ```
+5. **STL Containers**
+  - Vector operations
+  - Array methods
+  - Iterator types
 
-2. **While Loop**
-   - Condition-controlled iteration
-   - Used when number of iterations unknown
-   ```cpp
-   while(condition) {
-       // code block
-       // update condition
-   }
-   ```
-
-#### Common Loop Patterns
-1. **Sliding Window**
-   ```cpp
-   for(int i = 0; i < n-k+1; i++) {
-       // Process window of size k
-   }
-   ```
-
-2. **Two-Pointer Technique**
-   ```cpp
-   int i = 0, j = n-1;
-   while(i < j) {
-       // Process elements from both ends
-   }
-   ```
-
-### 3. Sliding Window Technique
-#### Key Concepts
-- **Basic Principles**
-  - Fixed/Variable size window
-  - Linear traversal
-  - Optimal for substring/subarray problems
-  - Time Complexity: O(n)
-
-#### Implementation Patterns
-1. **Fixed Size Window**
-   ```cpp
-   // Calculate initial window
-   for(int i = 0; i < k; i++) {
-       windowSum += arr[i];
-   }
-   
-   // Slide window
-   for(int i = k; i < n; i++) {
-       windowSum = windowSum + arr[i] - arr[i-k];
-       result = max(result, windowSum);
-   }
-   ```
-
-2. **Variable Size Window**
-   ```cpp
-   while(j < n) {
-       // Add calculation for j
-       
-       while(condition) {
-           // Remove calculation for i
-           i++;
-       }
-       
-       // Store result
-       j++;
-   }
-   ```
-
-### 4. String Problems
-#### Important Techniques
-- **Character Frequency**
-  ```cpp
-  int freq[128] = {0};  // for ASCII
-  // or
-  vector<int> freq(26, 0);  // for lowercase letters
-  ```
-
-- **Sliding Window on Strings**
-  - Track unique characters
-  - Maintain character count
-  - Update window based on conditions
-
-#### Common String Operations
-1. **Character Counting**
-   ```cpp
-   string s = "example";
-   vector<int> count(26, 0);
-   for(char c : s) {
-       count[c - 'a']++;
-   }
-   ```
-
-### Interview Tips
-3. **String Problems**
-   - Use frequency arrays for character counting
-   - Consider ASCII vs Unicode requirements
-   - Check for case sensitivity
-   - Handle empty string cases
-
-4. **Sliding Window Problems**
-   - Identify window condition
-   - Handle window size variations
-   - Track window state efficiently
-   - Consider space optimization
+6. **Optimization Tips**
+  - Avoiding copies
+  - Reference parameters
+  - Const correctness
 
 ### Common Time Complexities
 - String Operations: O(n)
 - Sliding Window: O(n)
 - Character Frequency: O(n)
 - String Comparison: O(min(n,m))
+
+### Additional Resources
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [LeetCode](https://leetcode.com/)

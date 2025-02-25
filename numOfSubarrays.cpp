@@ -17,6 +17,9 @@ public:
         // If the sum is odd, then the subarray is odd, so we add the number of even subarrays to the result
         for (int i = 0; i < n; i++) {
             sum += arr[i];
+
+            // If the sum is even, then the subarray is even, example - [1, 2, 3] -> [1, 2], [2, 3], [1, 2, 3] are all even subarrays
+            // If the sum is odd, then the subarray is odd, example - [1, 2, 3, 4] -> [1, 2, 3], [2, 3, 4] are odd subarrays
             if (sum % 2 == 0) {
                 res = (res + odd) % 1000000007;
                 even++;
