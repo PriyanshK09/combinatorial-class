@@ -18,6 +18,10 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 4. "303" Range Sum Query - Immutable - [Problem](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](NumArray.cpp)
 5. "1524" Number of Sub-arrays With Odd Sum - [Problem](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [Solution](numOfSubarrays.cpp)
 6. "707" Design Linked List - [Problem](https://leetcode.com/problems/design-linked-list/) | [Solution](MyLinkedList.cpp)
+7. "605" Can Place Flowers - [Problem](https://leetcode.com/problems/can-place-flowers/) | [Solution](canPlaceFlowers.cpp)
+8. "430"
+9. "468"
+10. "5"
 
 
 ## Repository Structure
