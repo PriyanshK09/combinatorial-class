@@ -22,6 +22,8 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 8. "430" Flatten a Multilevel Doubly Linked List - [Problem](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Solution](flatten.cpp)
 9. "5" Longest Palindromic Substring - [Problem](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](longestPalindrome.cpp)
 10. "1721" Swapping Nodes in a Linked List - [Problem](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [Solution](swapNodes.cpp)
+11. "342" Power of Four - [Problem](https://leetcode.com/problems/power-of-four/) | [Solution](isPowerOfFour.cpp)
+12. "9" Palindrome Number - [Problem](https://leetcode.com/problems/palindrome-number/) | [Solution](isPalindrome.cpp)
 
 
 ## Repository Structure
