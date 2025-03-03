@@ -19,9 +19,9 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 5. "1524" Number of Sub-arrays With Odd Sum - [Problem](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [Solution](numOfSubarrays.cpp)
 6. "707" Design Linked List - [Problem](https://leetcode.com/problems/design-linked-list/) | [Solution](MyLinkedList.cpp)
 7. "605" Can Place Flowers - [Problem](https://leetcode.com/problems/can-place-flowers/) | [Solution](canPlaceFlowers.cpp)
-8. "430"
-9. "468"
-10. "5"
+8. "430" Flatten a Multilevel Doubly Linked List - [Problem](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Solution](flatten.cpp)
+9. "5" Longest Palindromic Substring - [Problem](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](longestPalindrome.cpp)
+10. "1721" Swapping Nodes in a Linked List - [Problem](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [Solution](swapNodes.cpp)
 
 
 ## Repository Structure
