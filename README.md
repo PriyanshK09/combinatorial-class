@@ -24,6 +24,8 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 10. "1721" Swapping Nodes in a Linked List - [Problem](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [Solution](swapNodes.cpp)
 11. "342" Power of Four - [Problem](https://leetcode.com/problems/power-of-four/) | [Solution](isPowerOfFour.cpp)
 12. "9" Palindrome Number - [Problem](https://leetcode.com/problems/palindrome-number/) | [Solution](isPalindrome.cpp)
+13. "496" Next Greater Element I - [Problem](https://leetcode.com/problems/next-greater-element-i/) | [Solution](nextGreaterElement.cpp)
+14. "739" Daily Temperatures - [Problem](https://leetcode.com/problems/daily-temperatures/) | [Solution](dailyTemperatures.cpp)
 
 
 ## Repository Structure
