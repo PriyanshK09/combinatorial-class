@@ -26,6 +26,7 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 12. "9" Palindrome Number - [Problem](https://leetcode.com/problems/palindrome-number/) | [Solution](isPalindrome.cpp)
 13. "496" Next Greater Element I - [Problem](https://leetcode.com/problems/next-greater-element-i/) | [Solution](nextGreaterElement.cpp)
 14. "739" Daily Temperatures - [Problem](https://leetcode.com/problems/daily-temperatures/) | [Solution](dailyTemperatures.cpp)
+15. "84" Largest Rectangle in Histogram - [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](largestRectangleArea.cpp)
 
 
 ## Repository Structure
