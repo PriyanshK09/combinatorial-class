@@ -27,6 +27,9 @@ This repository contains codes and notes shared during Classes of Combinatorial 
 13. "496" Next Greater Element I - [Problem](https://leetcode.com/problems/next-greater-element-i/) | [Solution](nextGreaterElement.cpp)
 14. "739" Daily Temperatures - [Problem](https://leetcode.com/problems/daily-temperatures/) | [Solution](dailyTemperatures.cpp)
 15. "84" Largest Rectangle in Histogram - [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](largestRectangleArea.cpp)
+16. "208" Implement Trie (Prefix Tree) - [Problem](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](Trie.cpp)
+17. "143" Reorder Array to Maximize Sum of Absolute Differences - [Problem](https://leetcode.com/problems/reorder-array-to-maximize-sum-of-absolute-differences/) | [Solution](maximizeSum.cpp)
+18. "211" Add and Search Word - Data structure design - [Problem](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](WordDictionary.cpp)
 
 
 ## Repository Structure
